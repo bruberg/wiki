@@ -32,10 +32,6 @@ Example: `/mode #channel +A`
 
 Mode | Description
 ---- | -----------
-["A"] | Extended Ban A:nick!user@host -- Set this on specific users to disallow them from sending /invites to your channel (for example, if the user is abusing /invite). 
+A | Extended Ban A:nick!user@host -- Set this on specific users to disallow them from sending /invites to your channel (for example, if the user is abusing /invite). 
 
 Example: `/mode #channel +b A:nick!user@host`
-
-## Notes
-
-Insert any long notes or gotchas about this module here.
