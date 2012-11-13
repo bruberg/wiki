@@ -31,7 +31,7 @@ Example: `/mode #channel +N`
 
 Mode | Description
 ---- | -----------
-["N"] | Disallows a user (or rather a hostmask) to change his/her nick.
+N | Disallows a user (or rather a hostmask) to change his/her nick.
 
 Example: `/mode #channel +b N:nick!user@host`
 
@@ -39,5 +39,3 @@ Example: `/mode #channel +b N:nick!user@host`
 
 If a user attempts a nick change in a channel where `+N` is set, the user will receive the following message:
 > Can't change nickname while on *#channel* (+N is set)
-
-## Extra Resources
